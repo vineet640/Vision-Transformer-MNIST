@@ -80,24 +80,24 @@ The repository includes a PDF file containing a detailed discussion on the metho
 | ViT | 0.18 | 0.18 | 95.0% |
 | CNN | 0.16 | 0.08 | 97.3% |
 
-Key Takeaways
+### Key Takeaways
 
-CNN outperforms ViT in this specific MNIST classification task in terms of accuracy and loss.
+* CNN outperforms ViT in this specific MNIST classification task in terms of accuracy and loss.
 
-ViT requires more computational resources and is less efficient compared to CNN for small datasets like MNIST.
+* ViT requires more computational resources and is less efficient compared to CNN for small datasets like MNIST.
 
-ViT models capture global relationships well, but CNNs remain superior for localized pattern recognition tasks like handwritten digit classification.
+* ViT models capture global relationships well, but CNNs remain superior for localized pattern recognition tasks like handwritten digit classification.
 
-Potential Improvements
+## Potential Improvements
 
-Implement data augmentation to improve generalization.
+* Implement data augmentation to improve generalization.
 
-Fine-tune transformer hyperparameters for better accuracy.
+* Fine-tune transformer hyperparameters for better accuracy.
 
-Experiment with alternative ViT architectures (e.g., Swin Transformer, DeiT).
+* Experiment with alternative ViT architectures (e.g., Swin Transformer, DeiT).
 
-Explore other datasets where transformers might perform better than CNNs.
+* Explore other datasets where transformers might perform better than CNNs.
 
-License
+## License
 
 This project is open-source and free to use. Contributions and improvements are welcome!
